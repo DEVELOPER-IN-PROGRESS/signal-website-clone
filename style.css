@@ -1,0 +1,43 @@
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+@media screen and (min-width:300px) {
+
+    nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .signal__header{
+        height: 52px;
+        padding: 0px 18px;
+        top: 0px;
+        margin: 0px;
+    }
+
+    .logo{
+        width: 90px;
+        height: 30px;
+    }
+
+    .close{
+        align-self: flex-end;
+    }
+
+    .dash{
+        background-color: black;
+        height: 1px;
+        width:16px;
+        margin-top: 5px;
+    }
+
+    .hero{
+        height: 50px;
+        background-color: aquamarine;
+    }
+
+}
