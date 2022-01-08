@@ -1,11 +1,12 @@
- 2.5hrs  
+4.5hrs at 4
 
-desktop view 
+desktop view
 
- header 
+ header
 a  font-size : 16px;  color: black ; text-decoration:none;      font-family: Inter, sans-serif;
 
 sectiion  1
+
 h1 { font-size: 60px;
 font-weight: 800;
 line-height: 64px;
@@ -15,7 +16,7 @@ font-family: Inter, sans-serif;
 
 p{ font-size: 20px; font-weight: 400; line-height: 28px; color: #1b1b1b; font-family: Inter, sans-serif; }
 
-button mod {  .button-white:hover { border-color: #b5b5b5;   background-color: #fff;     color: #1851B4;} 
+button mod {  .button-white:hover { border-color: #b5b5b5;   background-color: #fff;     color: #1851B4;}
     font-size: 20px;    line-height: 28px;     padding: 0 20px;  border:none ; border-radius: 8px;
 font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 font-weight: 600;  }
@@ -25,19 +26,19 @@ blockquote {  font-size: 28px; line-height: 32px; color: #1b1b1b; font-weight: 8
 h2 {  font-size: 40px; font-weight: 800; line-height: 44px;     color: #1b1b1b; font-family: Inter, sans-serif; }
 p.body1 {     font-size: 20px;    font-weight: 400;    line-height: 28px; color: #1b1b1b; font-family: Inter, sans-serif; }
 
-section 3 
+section 3
 h2 { previous }
 p.body1 { previous }
 
-cards section 
+cards section
 [ atom h3 { color: #1b1b1b; font-size: 28px;font-weight: 800;line-height: 32px; font-family: Inter, sans-serif; }
-p.body2 { font-family: Inter, sans-serif; color: #4a4a4a; font-size: 16px; font-weight: 400;line-height: 22px;  }  ] -- molecule 
+p.body2 { font-family: Inter, sans-serif; color: #4a4a4a; font-size: 16px; font-weight: 400;line-height: 22px;  }  ] -- molecule
 
-next section 
+next section
 h2 { previous }
 p.body1 { }
 
-footer 
+footer
 copyright {    color: #E9E9E9;   font-size: 16px;    line-height: 22px; }
 
 footer a { color: #E9E9E9; cursor: pointer; font-size: 16px; line-height: 22px;  font-family: Inter, sans-serif; }   a:hover { text-decoration: underline; }
@@ -45,18 +46,18 @@ footer a { color: #E9E9E9; cursor: pointer; font-size: 16px; line-height: 22px; 
 strong heading { color: #E9E9E9; font-weight: 600; font-size: 16px; line-height: 22px;  font-family: Inter, sans-serif;}
 
 
-				GET SIGNAL  /// DOWNLOAD 
-h2 -atom  	
-button variantr     b2 { background-color: #2c6bed; border: none; border-radius: 8px; color: #fff; font-weight: 600; text-decoration: none;  
+				GET SIGNAL  /// DOWNLOAD
+h2 -atom
+button variantr     b2 { background-color: #2c6bed; border: none; border-radius: 8px; color: #fff; font-weight: 600; text-decoration: none;
 font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; }
 
 p atom { font-size: 1em; font-weight: 400; line-height: 1.5; color: #1b1b1b; font-family: Inter, sans-serif; }
 
 
-a atom   a:hover {  color: #1851B4;     text-decoration: underline; } 
+a atom   a:hover {  color: #1851B4;     text-decoration: underline; }
 
- 
-		  		SUPPORT 
+
+		  		SUPPORT
 
 h1 atom variant { font-size: 40px; font-weight: 800; line-height: 44px;   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; }
 
@@ -74,29 +75,29 @@ line-height: 1.5;
 
  h4 atom {  font-size: 18px;    font-weight: 800;     line-height: 22px;  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; color :rgba(27, 27, 27, 1); }
 p variant  { text-decoration: none; font-weight: 300; font-size: 16px; line-height: 22px; color: rgba(27, 27, 27, 1); font-family: Inter;
-] 
+]
 
-				 CAREERS 
+				 CAREERS
 h1 -atom p.body{ }
 
-[ h3 atom  p.body2  ] molecule repeated 
+[ h3 atom  p.body2  ] molecule repeated
 
-h2 atom 
-job roles  
+h2 atom
+job roles
 <strong>
   a atom  a:hover {color: #1851B4; text-decoration: underline; cursor: pointer;  font-size: 1em; font-weight: 400;line-height: 1.5;  }
 
-				DEVELOPERS 
+				DEVELOPERS
 h1 atom  p.body 1  image
 h2atom p.body 1
 
-section 2 
+section 2
 
-a-atom  
+a-atom
 p.body2 --mod    {  font-size: 16px; font-weight: 400; line-height: 22px;      color: #1b1b1b;  font-family: Inter, sans-serif;
 }
 
-h2 
-a atom with blue 
+h2
+a atom with blue
 
 
