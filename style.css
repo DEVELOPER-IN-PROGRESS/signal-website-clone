@@ -1,10 +1,122 @@
+:root {
+ --ff1 :  'Inter', sans-serif ;
+ --ff2: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ --bkblue: #1b1b1b;
+ --br1 : 16px;
 
+}
+
+
+
+/* font-family: 'Inter', sans-serif; */
 body {
+    font-family: var(--ff1);
     margin: 0px;
     padding: 0px;
 }
 
+.text-center{
+    text-align: center;
+}
+
 @media screen and (min-width:300px) {
+
+    .sg-atom-h1{
+        padding: 4px;
+        color: var(--bkblue);
+        font-size: 40px;
+        font-weight: 800;
+        line-height: 44px;
+    }
+
+    .sg-atom-h2{
+        font-size: 28px;
+        font-weight: 800;
+        line-height: 32px;
+        color: var(--bkblue);
+    }
+
+  .sg-atom-h3{
+    color: var(--bkblue);
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 32px;
+  }
+
+    .sg-atom-a{
+        color: #3273dc;
+        cursor: pointer;
+        font-size: 16px ;
+        line-height: 22px ;
+    }
+
+    .sg-atom-a--white{
+        color: #E9E9E9;
+        cursor: pointer;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 22px
+    }
+
+    .sg-atom-a--white:hover{
+        text-decoration: underline;
+    }
+
+    .sg-atom-a--bold {
+        font-weight: 600;
+    }
+
+    .sg-atom-a--bold:hover , .sg-atom-a:hover{
+        color:#1851B4 ;
+        text-decoration: underline;
+    }
+
+    .sg-atom-p{
+        color: var(--bkblue);
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 22px;
+    }
+
+    .sg-atom-p--grey{
+        color: #4a4a4a;
+    }
+
+    .sg-atom-strong{
+        font-size: 1em;
+        line-height: 1.5;
+        color: #363636;
+        font-weight: 700;
+    }
+
+    .sg-atom-strong--white{
+        color: #E9E9E9;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .sg-atom-img {
+        width:100%;
+        height: auto;
+    }
+
+    .sg-atom-button{
+        border: none;
+        border-radius: 8px;
+        font-weight: 600;
+        font-family: var(--ff2);
+        cursor: pointer;
+        box-shadow: none;
+        font-size: 20px;
+        line-height: 28px;
+        padding: 0 20px;
+    }
+
+    .sg-atom-button--white{
+        background-color: #fff;
+        color: #2C6BED;
+    }
 
     nav {
         display: flex;
@@ -39,5 +151,12 @@ body {
         height: 50px;
         background-color: aquamarine;
     }
+
+}
+
+
+@media screen and (min-width:768px) {  }
+
+@media screen and (min-width:992px) {
 
 }
