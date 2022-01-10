@@ -31,9 +31,8 @@ ul{
 .border-violet{
     border: 1px solid blueviolet;
 }
-
-@media screen and (min-width:300px) {
-
+  /* Atoms molecules organisms */
+@media screen and (min-width:300px){
     .sg-atom-h1{
         margin: 0px;
         color: var(--bkblue);
@@ -146,6 +145,35 @@ ul{
         color: #2C6BED;
     }
 
+
+    .sg-molc-card{}
+
+    .sg-org-textimage{
+        padding: var(--sectionpadding);
+    }
+
+    .sg-org-textimage__img{
+        border-radius: var(--br1);
+        max-width: 100%;
+    }
+    .sg-org-textimage__h2{
+        padding: 24px 0px 32px 0px;
+    }
+}
+
+@media screen and (min-width:768px){
+
+}
+
+@media screen and (min-width:992px){
+
+}
+    /* Atoms molecules organisms */
+
+
+@media screen and (min-width:300px) {
+
+
     nav {
         background-color: #fff;
         position: fixed;
@@ -192,6 +220,7 @@ ul{
 
     .hero__p{
         margin-top: 24px;
+        margin-bottom:2px ;
     }
 
     .hero__imgwrap{
@@ -216,6 +245,11 @@ ul{
         position: absolute;
     }
 
+    .hero__button {
+        width: 156px ;
+        height: 50px;
+    }
+
     /* opinion*/
 .opinion{
     padding: var(--sectionpadding) ;
@@ -235,6 +269,7 @@ ul{
     width: 108px;
     max-width: 100%;
     border-radius: 50px;
+    margin-bottom: 24px;
 }
 
 .sg-molc-card2__quote{
@@ -250,6 +285,7 @@ ul{
 }
 
 .sg-molc-card2__p{
+    margin-top: 16px;
     margin-bottom:48px ;
 }
 
@@ -266,8 +302,13 @@ ul{
     border-radius: var(--br1);
 }
 
+.whyuse__h2{
+    margin: 24px 0px 32px 0px;
+}
+
  .whyuse__p1{
      padding-top:16px;
+     padding-bottom: 48px;
  }
 
 /* card grid */
@@ -303,6 +344,7 @@ box-shadow: 0px 4px 12px rgba(0,0,0,0.12),0px 0px 2px rgba(0,0,0,0.08);
 .sg-molc-card__h3{
     margin: 18px 0px 4px 0px ;
 }
+
 
 
 /* Footer */
@@ -394,3 +436,31 @@ box-shadow: 0px 4px 12px rgba(0,0,0,0.12),0px 0px 2px rgba(0,0,0,0.08);
     }
 
 }
+
+
+
+
+
+@media screen and (min-width:300px){
+    /* no ads */
+      .noads , .everyone {
+          background-color: #ffffff;
+      }
+
+      .everyone__button{
+        border: 2px solid #2c6bed;
+        width: 195px;
+        height: 50px;
+        padding: 0px;
+      }
+  }
+
+
+  @media screen and (min-width:768px){
+
+  }
+
+
+  @media screen and (min-width:992px){
+
+  }
