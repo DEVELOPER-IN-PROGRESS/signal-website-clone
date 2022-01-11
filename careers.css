@@ -1,0 +1,28 @@
+
+@media screen and (min-width:300px) {
+    .careers-hero{
+        padding: 0px 24px;
+        background: #e7dfe0;
+    }
+
+    .careers-hero__h1{
+        margin: 12px 0px;
+    }
+
+    .careers-hero__p{
+        padding: 12px 0px;
+    }
+
+    .careers-hero__img {
+        margin: 12px 0px;
+    }
+
+}
+
+@media screen and (min-width:768px) {
+
+}
+
+@media screen and (min-width:992px) {
+
+}
