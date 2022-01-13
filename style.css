@@ -127,6 +127,10 @@ ul{
         height: auto;
     }
 
+    .sg-atom-img--rounded{
+        border-radius: 8px;
+    }
+
     .sg-atom-button{
         border: none;
         text-decoration: none;
@@ -145,6 +149,11 @@ ul{
         color: #2C6BED;
     }
 
+    .sg-atom-button--blue{
+        background-color: #2C6BED;
+        color: #fff;
+        height: 40px;
+    }
 
     .sg-molc-card{}
 
