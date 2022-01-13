@@ -162,6 +162,25 @@ ul{
 }
 
 @media screen and (min-width:768px){
+  .sg-atom-h1{
+      font-size: 60px;
+      line-height: 64px;
+  }
+
+  .sg-atom-h2{
+    font-size: 40px;
+    line-height: 44px;
+}
+
+.sg-atom-a--bold:hover , .sg-atom-a:hover{
+    color:#1851B4 ;
+    text-decoration: underline;
+}
+
+.sg-atom-p{
+    font-size: 20px;
+    line-height: 28px;
+}
 
 }
 
