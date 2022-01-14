@@ -186,6 +186,11 @@ ul{
     text-decoration: underline;
 }
 
+
+.sg-atom-a--noline , .sg-atom-a--noline:hover {
+    text-decoration: none;
+}
+
 .sg-atom-p{
     font-size: 20px;
     line-height: 28px;

@@ -81,6 +81,11 @@
     margin-left: 0;
   }
 
+  .d-flex{
+    display: flex;
+    align-items: center;
+  }
+
   .no-gutters > .col,
   .no-gutters > [class*="col-"] {
     padding-right: 0;
