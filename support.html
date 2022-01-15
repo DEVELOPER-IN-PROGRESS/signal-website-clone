@@ -15,18 +15,33 @@
 
 </head>
 <body>
-    <header >
-        <nav class="support-header">
-            <div class="support__logo">
-                <a href="#" class="d-flex sg-atom-a sg-atom-a--noline">
-                    <img src="signalicon.png" alt="signal icon" class="sg-atom-img support__logo-img" />
-                    <span class="sg-atom-h2 support__logo-span">Signal Support</span>
-                </a>
+    <header class="support__header" >
+
+        <div class="support__logo">
+            <a href="#" class="d-flex sg-atom-a sg-atom-a--noline">
+                <img src="signalicon.png" alt="signal icon" class="sg-atom-img support__logo-img" />
+                <span class="sg-atom-h2 support__logo-span">Signal Support</span>
+            </a>
+        </div>
+        <div class="nav-wrapper" onclick="opencloseNav()">
+            <div class="header__ham-icon">
+                <div class="header__ham-icon-line"></div>
+                <div class="header__ham-icon-line"></div>
+                <div class="header__ham-icon-line"></div>
             </div>
-        </nav>
+
+            <nav class="support-header" id="navBar">
+                <div class="header__menus">Signal.org</div>
+                <div class="header__menus"> Donate</div>
+                <div class="header__menus">Contact Us</div>
+                <div class="header__menus">English (US) &#8744; </div>
+            </nav>
+        </div>
     </header>
 
-<section class="howcan">
+<main role="main">
+
+    <section class="howcan">
         <div class="elem-wrapper">
             <h1 class="text-center sg-atom-h1 howcan__h1">How can we help?</h1>
 
@@ -40,10 +55,27 @@
 </section>
 
 
+
+</main>
 <footer class="support-footer">
     <div class="support-wrap">
         <a href="#" class="sg-atom-a support-footer__a">Signal Support</a>
     </div>
 </footer>
+<script>
+        let clicked = false ;
+
+        function opencloseNav(){
+        clicked = !clicked;
+        if(clicked){
+            document.getElementById('navBar').style.display ='block';
+            click = false;
+        }
+        else{
+            document.getElementById('navBar').style.display ='none';
+        }
+    }
+
+</script>
 </body>
 </html>
