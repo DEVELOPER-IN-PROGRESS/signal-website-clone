@@ -295,9 +295,10 @@ ul{
     }
 
     .hero__imgwrap{
-        padding: 20px 0px 0px 0px;
+        padding: 12px ;
         display: block;
         position: relative;
+        margin-top:20px ;
     }
 
     .hero__img1{
@@ -305,6 +306,7 @@ ul{
         max-width: 100%;
         transform: rotate(22.5deg);
         width: 218px;
+
     }
 
     .hero__img2{
@@ -312,7 +314,8 @@ ul{
         max-width: 100%;
         transform: rotate(22.5deg);
         width: 218px;
-        margin-left: -32px;
+        top: 0px;
+        left: 20px ;
         position: absolute;
     }
 
@@ -487,6 +490,24 @@ box-shadow: 0px 4px 12px rgba(0,0,0,0.12),0px 0px 2px rgba(0,0,0,0.08);
 @media screen and (min-width:768px) {
 
 
+    .hero__img1{
+        width: 320px;
+    }
+
+
+       /* opinion*/
+.opinion{
+    padding: var(--sectionpadding) ;
+    padding-top: 144px;
+    background-color: #ECECEC;;
+}
+.card-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+
    /*  card grid */
 
    .cardgrid__container{
@@ -519,6 +540,9 @@ box-shadow: 0px 4px 12px rgba(0,0,0,0.12),0px 0px 2px rgba(0,0,0,0.08);
         display: flex;
 
     }
+
+    .padding-offset{padding: 42px;}
+
 
 
 
