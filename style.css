@@ -308,7 +308,6 @@ ul{
 
     .hero__imgwrap{
         padding: 12px ;
-        display: block;
         position: relative;
         margin-top:20px ;
     }
@@ -318,7 +317,9 @@ ul{
         max-width: 100%;
         transform: rotate(22.5deg);
         width: 218px;
-
+        position: relative;
+right: 78px;
+top: 27px;
     }
 
     .hero__img2{
@@ -328,6 +329,7 @@ ul{
         width: 218px;
         top: 0px;
         left: 20px ;
+        z-index: initial;
         position: absolute;
     }
 
