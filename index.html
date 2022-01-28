@@ -14,35 +14,36 @@
 </head>
 <body>
     <header class="nav">
-
             <div  class="signal__header">
+
                 <img src="images/logo.png" class="logo" alt="signal logo" />
 
-                        <div class="ham-menu d-lg-none"  onclick="myFunction(this)">
+                        <div class="ham-menu d-lg-none"  onclick="opencloseNav()">
                             <div class="bar1"></div>
                             <div class="bar2"></div>
                             <div class="bar3"></div>
                         </div>
-                        <nav id="navBar" >
-                           <div class="signal__navigation d-lg-block">
-                            <a href="#" class="sg-atom-a sg-atom-a--noline signal__navigation-a">Get Signal</a>
-                            <a href="#" class="sg-atom-a sg-atom-a--noline signal__navigation-a">Support</a>
-                            <a href="#" class="sg-atom-a sg-atom-a--noline signal__navigation-a">Blog</a>
-                            <a href="#" class="sg-atom-a sg-atom-a--noline signal__navigation-a">Developers</a>
-                            <a href="#" class="sg-atom-a sg-atom-a--noline signal__navigation-a">Careers</a>
-                            <a href="#" class="sg-atom-a sg-atom-a--noline signal__navigation-a">Donate</a>
-                            <a href="#" class="sg-atom-a sg-atom-a--noline signal__navigation-a">
-                                <i class="fa fa-twitter" aria-hidden="true"></i>
-                            </a>
-                            <a href="#" class="sg-atom-a sg-atom-a--noline signal__navigation-a">
-                                <i class="fa fa-twitter" aria-hidden="true"></i>
-                            </a>
-                            <a href="#" class="sg-atom-a sg-atom-a--noline signal__navigation-a">
-                                <i class="fa fa-globe" aria-hidden="true"></i>
-                            </a>
-                           </div>
-                        </nav>
+
             </div>
+            <nav id="navBar" class="d-md-block">
+                <div class="signal__navigation d-lg-block">
+                 <a href="#" class="sg-atom-a sg-atom-a--noline signal__navigation-a">Get Signal</a>
+                 <a href="#" class="sg-atom-a sg-atom-a--noline signal__navigation-a">Support</a>
+                 <a href="#" class="sg-atom-a sg-atom-a--noline signal__navigation-a">Blog</a>
+                 <a href="#" class="sg-atom-a sg-atom-a--noline signal__navigation-a">Developers</a>
+                 <a href="#" class="sg-atom-a sg-atom-a--noline signal__navigation-a">Careers</a>
+                 <a href="#" class="sg-atom-a sg-atom-a--noline signal__navigation-a">Donate</a>
+                 <a href="#" class="sg-atom-a sg-atom-a--noline signal__navigation-a">
+                     <i class="fa fa-twitter" aria-hidden="true"></i>
+                 </a>
+                 <a href="#" class="sg-atom-a sg-atom-a--noline signal__navigation-a">
+                     <i class="fa fa-twitter" aria-hidden="true"></i>
+                 </a>
+                 <a href="#" class="sg-atom-a sg-atom-a--noline signal__navigation-a">
+                     <i class="fa fa-globe" aria-hidden="true"></i>
+                 </a>
+                </div>
+             </nav>
     </header>
 
     <section class="padding-offset">
@@ -58,13 +59,16 @@
                 <button class="sg-atom-button sg-atom-button--white hero__button">Get Signal</button>
 
             </div>
-            <div class="col-12 col-lg-6">
+            <div class="col-12 col-lg-6" >
+
                 <div class="hero__imgwrap">
                     <img src="images/homeb2.png" alt="apple Iphone" class="sg-atom-img hero__img1"/>
                     <img src="images/homeb1.png" alt="pixel phone" class="sg-atom-img hero__img2"/>
                 </div>
+
             </div>
         </div>
+
 
 
     </div>
@@ -301,9 +305,9 @@
 
 function opencloseNav(){
 clicked = !clicked;
+console.log(this)
 if(clicked){
     document.getElementById('navBar').style.display ='block';
-    click = false;
 }
 else{
     document.getElementById('navBar').style.display ='none';

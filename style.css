@@ -290,6 +290,9 @@ ul{
           text-decoration: none;
       }
 
+      #navBar{
+          display: none;
+      }
 
     .padding-offset{padding: 26px;}
 
@@ -298,7 +301,9 @@ ul{
         background-color: #9DBBF8;
         color: #1b1b1b;
         max-height: 760px;
-        padding: var(--sectionpadding)
+        padding: var(--sectionpadding);
+        position: relative;
+        overflow-x: clip;
     }
 
     .hero__p{
@@ -309,7 +314,6 @@ ul{
     .hero__imgwrap{
         padding: 12px ;
         position: relative;
-        margin-top:20px ;
     }
 
     .hero__img1{
@@ -318,8 +322,8 @@ ul{
         transform: rotate(22.5deg);
         width: 218px;
         position: relative;
-right: 78px;
-top: 27px;
+        right: 78px;
+        top: 60px;
     }
 
     .hero__img2{
@@ -327,10 +331,9 @@ top: 27px;
         max-width: 100%;
         transform: rotate(22.5deg);
         width: 218px;
-        top: 0px;
-        left: 20px ;
-        z-index: initial;
-        position: absolute;
+        top: 10px;
+        right: -40px ;
+         position: absolute;
     }
 
     .hero__button {
